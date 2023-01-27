@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit' sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(225, 17%, 91%, 0.986);
+}
+img{
+    max-width: 100%;
+}
+
+h1{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 32px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 32px;
+    font-weight: 600;
+    color: hsl(220, 3%, 35%);
+    margin-top: -20px;
+}
+h6{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+}
+.bottom-layer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1220px;
+    top: 50px;
+    padding: 20px;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 250px;
+    padding: 35px;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 10px -18px #333; 
+}
+.card-1{
+    border-top: 2px solid cyan;
+    transform: translateY(50%);
+}
+.card-2{
+    border-top: 2px solid red;
+}
+.card-3{
+    border-top: 2px solid rgb(21, 149, 235);
+    transform: translateY(50%);
+}
+.card-4{
+    border-top: 2px solid rgba(236, 205, 24, 0.829);
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(222, 8%, 26%);
+    padding: 2px;
+}
+p{
+    font-size: 15px;
+    font-weight:200;
+    color: hsl(229, 6%, 66%);
+    text-align: start;
+    margin-top: 10px;
+    padding: 2px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.images img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 65px;
+    left: 250px;
+}
+
+@media (max-width: 375px){
+    .card-3{
+        transform: translateY(0);
+    }
+    .card-1{
+        transform: translateY(0);
+    }
+}
